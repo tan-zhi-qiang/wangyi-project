@@ -1,7 +1,6 @@
 <template>
-  <div id="appContainer">
+  <div id="app">
     <router-view></router-view>
-    <FirstPage />
     <FooterGuide/>
   </div>
 </template>
@@ -15,7 +14,5 @@ export default {
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  #appContainer
-    height 100%
-    width 100%
+
 </style>
