@@ -9,7 +9,7 @@
 					</van-col>
 					<van-col>
 						<van-search class='header_search' v-model="search_v" placeholder="请输入搜索关键词" input-align="center"
-						background: #ededed shape="round"/>
+						shape="round"/>
 					</van-col>
 					<van-col>
 						<div class="loginBtn">登录</div>

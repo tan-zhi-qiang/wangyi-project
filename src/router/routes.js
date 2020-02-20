@@ -11,7 +11,12 @@ export default [
     },
     {
         path:'/Classify',
-        component:Classify
+        component:Classify,
+        children:[
+            {
+                path:'/classifylist'
+            }
+        ]
     },
     {
         path:'/Buy',
